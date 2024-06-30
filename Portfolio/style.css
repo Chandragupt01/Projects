@@ -1,0 +1,111 @@
+/* Universal Properties */
+.DivSection{
+    margin-left:142px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* Navigation bar  */
+p{
+    margin-bottom: 0;
+}
+body{
+    background-color:#DAC0A3 ;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+ul li a{
+    display: inline;
+    margin-left: auto;
+    font-size: x-large;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: #DAC0A3;
+}
+.hello{
+    font-size:60px;
+}
+.nav-container{
+    background-color: rgb(16, 44, 87,0.8);
+    height: 70px;
+    text-align: end;
+    padding-top: 10px;
+}
+.logo{
+    margin-right: auto;
+    margin-left: 80px;
+    float: left;
+}
+
+.home{
+    margin-left: auto;
+}
+.contact{
+    margin-right: 50px;
+}
+
+/* section1 */
+.introDiv{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    height:75vh;
+
+}
+.intro{
+    width:40%;
+    margin-top: 150px;
+    margin-left: 142px;
+}
+.introPara{
+    font-size: x-large;
+}
+.autoType{
+    color: red;
+}
+.introImg{
+    background: url(assets/profile-pic.png);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 500px;
+    margin-top:30px ;
+    margin-right: 100px;
+    box-shadow: 0 15px 5px 5px rgba(0,0,0,0.2) ;
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+@keyframes animate{
+    0%{
+        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/ 50% 60% 30% 40%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+    }
+}
+/* section2 */
+.aboutPara{
+    margin-top: 50px;
+    margin-right: 150px;
+}
+.section1{
+    background-color: #DAC0A3;
+}
+.section2{
+    background-color: #EADBC8;
+}
+.footer{
+    background-color: #FEFAF6;
+}
+
+footer{
+    margin-bottom: 0cm;
+    text-align: center;
+}
