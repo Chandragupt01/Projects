@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chandragupt Acharya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Playwrite+HR:wght@100..400&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,10 +16,10 @@
             <div class="logo"><a href="index.html"><img src="assets/CAWhiteTransparent.png" alt="Website Logo" style="height: 50px; width: 90px;"></a></div>
             
             <ul class="list">
-                <li class="link home"><a href="index.html">Home</a></li>
-                <li class="link"><a href="about.html">About</a></li>
-                <li class="link"><a href="projects.html">Projects</a></li>
-                <li class="link contact"><a href="contact.html">Contact</a></li>
+                <li class="link home para"><a href="index.html">Home</a></li>
+                <li class="link para"><a href="#About">About</a></li>
+                <li class="link para"><a href="#Projects">Projects</a></li>
+                <li class="link contact para"><a href="#Connect">Contact</a></li>
             </ul>
         </div>
     </nav>    
@@ -24,47 +27,63 @@
         <div class="introDiv">
             <div class="intro">
                 <h2 class="hello">Hello</h2>
-                <h3>I'm Chandragupt</h3>
-                <p class="introPara">I am <span class="autoType"></span></p>
+                <h3 class="heading">I'm Chandragupt</h3>
+                <p class="introPara para">I am <span class="autoType"></span></p>
+                <br>
+                <a href="mailto:chandraguptacharya02@gmail.com" class="socialicon"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="https://github.com/Chandragupt01" class="socialicon"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="" class="socialicon"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="" class="socialicon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <br>
+                <button type="button" class="btn btn-outline-primary resume">Download Resume</button>
             </div>
             <div class="introImg"></div>
+            
         </div>
     </section>
     <section class="section2">
-        <div class="aboutDiv DivSection">
-            <h1 class="aboutHeading">About</h1>
-            <p class="aboutPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quidem et quaerat doloremque officia sequi autem magni facere reiciendis fuga. Veritatis numquam obcaecati earum dolor ad perferendis nam eaque sequi, voluptatem itaque nulla cupiditate ab enim, molestiae assumenda amet veniam adipisci pariatur rerum placeat nisi. Porro dolorum cum autem molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas magni illum distinctio optio sapiente consectetur vel, quidem ullam praesentium!</p>
+        <div class="aboutDiv DivSection" id="About">
+            <h1 class="aboutHeading heading">About</h1>
+            <p class="aboutPara para">My name is B. M. Chandragupt Acharya, I have completed my Bachelor of Technology in Mechanical Engineering from Vellore Institute Of Technology, Vellore, India. Currently I am working as a Junior Software Engineer at Cognizant. I am an enthusiastic and highly-motivated person who likes to take initiative and seek out new challenges. I aspire to get better at programming and become a Full Stack Web Developer. I am open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+            <h2 class="skills" style="">Skills</h2>
+            <span class="badge text-bg-secondary">Python</span>
+            <span class="badge text-bg-secondary">HTML</span>
+            <span class="badge text-bg-secondary">CSS</span>
+            <span class="badge text-bg-secondary">Javascript</span>
+            <span class="badge text-bg-secondary">bootstrap</span>
+            <span class="badge text-bg-secondary">Jquery</span>
+            <span class="badge text-bg-secondary">SQL</span>
         </div>
     </section>
     <section class="section1">
-        <div class="DivSection">
-            <h1>Projects</h1>
+        <div class="DivSection" id="Projects">
+            <h1 class="heading">Projects</h1>
             <div class="card" style="width: 18rem;">
-                <img src="assets/potfolioTest.png" class="card-img-top" alt="Portfolio page example">
+                <img src="assets/portfolioPage.png" class="card-img-top" alt="Portfolio page example" style="border: 2px solid white;">
                 <div class="card-body">
-                  <h5 class="card-title">Portfolio Page</h5>
-                  <p class="card-text">It is a portfolio page project.
+                  <h5 class="card-title heading">Portfolio Page</h5>
+                  <p class="card-text para">It is a portfolio page project.
                     <ul>
-                        <li><strong>Technologies used:</strong>HTML, CSS, Javascript</li>
+                        <li class="para"><strong>Technologies used:</strong>HTML, CSS, Javascript</li>
                         <br>
-                        <li><strong>Frameworks used:</strong>Bootstrap</li>
+                        <li class="para"><strong>Frameworks used:</strong>Bootstrap</li>
                     </ul>
                   </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-outline-primary">Go to project</a>
                 </div>
               </div>
         </div>
     </section>
     <section class="section2">
-        <div class="DivSection">
-            <h1>Connect with me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, odio?</p>
+        <div class="DivSection" id="Connect">
+            <h1 class="heading">Connect with me</h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, odio?</p>
         </div>
     </section>
     <footer>
         <div  class="footer">
-            <p>Author: B.M.Chandragupt Acharya<br>
-            <a href="mailto:chandraguptacharya02@gmail.com">chandraguptacharya02@gmail.com</a></p>
+            <p class="para">Author: B.M.Chandragupt Acharya<br>
+            <a href="mailto:chandraguptacharya02@gmail.com" class="para">chandraguptacharya02@gmail.com</a></p>
             </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -73,5 +92,7 @@
     var typed = new Typed('.autoType', {
     strings: ["a Frontend Developer", "a Python Programmer"," an Avid Learner"],typeSpeed: 100, backSpeed: 100,loop: true}) 
     </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
