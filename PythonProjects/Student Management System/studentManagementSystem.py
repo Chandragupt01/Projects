@@ -37,7 +37,7 @@ def addstudent():
     addroot.geometry('490x490+220+200')
     addroot.title('Student Management System')
     addroot.config(bg='tan')
-    # addroot.iconbitmap('smsicon.ico')
+    addroot.iconbitmap('smsicon.ico')
     addroot.resizable(False,False)
     #----------------------------------------------add student labels
     idlabel=Label(addroot,text='Enter Id: ',bg='teal',font=('Helvetica',20,'bold'),relief=GROOVE,borderwidth=3,width=12,anchor='w')
@@ -173,7 +173,7 @@ def searchstudent():
     searchroot.geometry('490x540+220+200')
     searchroot.title('Student Management System')
     searchroot.config(bg='tan')
-    # searchroot.iconbitmap('smsicon.ico')
+    searchroot.iconbitmap('smsicon.ico')
     searchroot.resizable(False,False)
     #----------------------------------------------add student labels
     idlabel=Label(searchroot,text='Enter Id: ',bg='teal',font=('Helvetica',20,'bold'),relief=GROOVE,borderwidth=3,width=12,anchor='w')
@@ -282,7 +282,7 @@ def updatestudent():
     updateroot.geometry('490x585+220+200')
     updateroot.title('Student Management System')
     updateroot.config(bg='tan')
-    # updateroot.iconbitmap('smsicon.ico')
+    updateroot.iconbitmap('smsicon.ico')
     updateroot.resizable(False,False)
     #----------------------------------------------add student labels
     idlabel=Label(updateroot,text='Update Id: ',bg='teal',font=('Helvetica',20,'bold'),relief=GROOVE,borderwidth=3,width=12,anchor='w')
@@ -436,7 +436,7 @@ def Connectdb():
     dbroot=Toplevel()
     dbroot.grab_set()
     dbroot.geometry('470x250+800+230')
-    # dbroot.iconbitmap('smsicon.ico')
+    dbroot.iconbitmap('smsicon.ico')
     dbroot.resizable(False,False)
     dbroot.config(bg='tan')
     #-----------------------------------connectdbLabels-----------------------------
@@ -494,7 +494,7 @@ root = Tk()
 root.title("Student Management System")
 root.config(bg="teal")
 root.geometry("1174x700+200+50")
-# root.iconbitmap('smsicon.ico')
+root.iconbitmap('smsicon.ico')
 root.resizable(False, False)
 ################################Frames#######################################
 ###--------------------dataentryframe-------------------------------------------
