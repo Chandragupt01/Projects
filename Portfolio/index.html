@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Playwrite+HR:wght@100..400&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="nav-container">
-        <div class="nav-item">
+        <!-- <div class="nav-item">
             <div class="logo"><a href="index.html"><img src="assets/CAWhiteTransparent.png" alt="Website Logo" style="height: 50px; width: 90px;"></a></div>
             
             <ul class="list">
@@ -22,7 +23,32 @@
                 <li class="link para"><a href="#Projects">Projects</a></li>
                 <li class="link contact para"><a href="#Connect">Contact</a></li>
             </ul>
-        </div>
+        </div> -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand logo" href="index.html"><img src="assets/CAWhiteTransparent.png" alt="Bootstrap" width="90px" height="50px"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active link home para" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link para" href="#About">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link para" href="#Projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link para" href="#Connect">Contact</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
     </nav>    
     <section class="section1">
         <div class="introDiv">
@@ -55,55 +81,7 @@
             <span class="badge text-bg-secondary">Jquery</span>
         </div>
     </section>
-    <!-- <section class="section1">
-        <div class="DivSection" id="Projects">
-            <h1 class="heading">Projects</h1>
-            <div class="project ">
-            <div class="card" style="width: 45rem;">
-                <img src="assets/portfolioPage.png" class="card-img-top" alt="Portfolio page example" style="border: 2px solid white;">
-                <div class="card-body">
-                  <h5 class="card-title heading">Portfolio Page</h5>
-                  <p class="card-text para">It is a portfolio page project.
-                    <ul>
-                        <li class="para"><strong>Technologies used:</strong>HTML, CSS, Javascript</li>
-                        <br>
-                        <li class="para"><strong>Frameworks used:</strong>Bootstrap</li>
-                    </ul>
-                  </p>
-                  <a href="#" class="btn btn-outline-primary">Go to project</a>
-                </div>
-            </div>
-            <div class="card" style="width: 45rem;">
-                <img src="assets/portfolioPage.png" class="card-img-top" alt="Portfolio page example" style="border: 2px solid white;">
-                <div class="card-body">
-                  <h5 class="card-title heading">Portfolio Page</h5>
-                  <p class="card-text para">It is a portfolio page project.
-                    <ul>
-                        <li class="para"><strong>Technologies used:</strong>HTML, CSS, Javascript</li>
-                        <br>
-                        <li class="para"><strong>Frameworks used:</strong>Bootstrap</li>
-                    </ul>
-                  </p>
-                  <a href="#" class="btn btn-outline-primary">Go to project</a>
-                </div>
-            </div>
-            <div class="card" style="width: 45rem;">
-                <img src="assets/portfolioPage.png" class="card-img-top" alt="Portfolio page example" style="border: 2px solid white;">
-                <div class="card-body">
-                  <h5 class="card-title heading">Portfolio Page</h5>
-                  <p class="card-text para">It is a portfolio page project.
-                    <ul>
-                        <li class="para"><strong>Technologies used:</strong>HTML, CSS, Javascript</li>
-                        <br>
-                        <li class="para"><strong>Frameworks used:</strong>Bootstrap</li>
-                    </ul>
-                  </p>
-                  <a href="#" class="btn btn-outline-primary">Go to project</a>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section> -->
+
     <section class="section1">
         <div class="DivSection" id="Projects">
             <h1 class="heading">Projects</h1>
