@@ -83,7 +83,9 @@ ul li a:hover{
 .nav-item{
     padding-right: 50px;
 }
-
+.navbar-toggler{
+    border: 1px solid #00A9FF;
+}
 /* section1 */
 .introDiv{
     display: flex;
